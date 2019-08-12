@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BEB14FE422FE29AF00231D6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FE322FE29AF00231D6A /* main.cpp */; };
 		BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */; };
+		BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB15036230114D700231D6A /* inlineFunction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BEB14FE322FE29AF00231D6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddFunction.cpp; sourceTree = "<group>"; };
 		BEB14FEB22FE2B7700231D6A /* AddFunction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddFunction.hpp; sourceTree = "<group>"; };
+		BEB15036230114D700231D6A /* inlineFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inlineFunction.cpp; sourceTree = "<group>"; };
+		BEB15037230114D700231D6A /* inlineFunction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inlineFunction.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				BEB14FE322FE29AF00231D6A /* main.cpp */,
 				BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */,
 				BEB14FEB22FE2B7700231D6A /* AddFunction.hpp */,
+				BEB15036230114D700231D6A /* inlineFunction.cpp */,
+				BEB15037230114D700231D6A /* inlineFunction.hpp */,
 			);
 			path = "C-review";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB14FE422FE29AF00231D6A /* main.cpp in Sources */,
+				BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */,
 				BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
