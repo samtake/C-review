@@ -12,6 +12,9 @@
 		BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB15036230114D700231D6A /* inlineFunction.cpp */; };
 		BEB1503B2301184100231D6A /* referenceParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB150392301184100231D6A /* referenceParameter.cpp */; };
 		BEB1503E2301205800231D6A /* defaultArgument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB1503C2301205800231D6A /* defaultArgument.cpp */; };
+		BEB150412301BB7400231D6A /* unaryOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB1503F2301BB7400231D6A /* unaryOperation.cpp */; };
+		BEB150442301BCCC00231D6A /* functionOverloading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB150422301BCCC00231D6A /* functionOverloading.cpp */; };
+		BEB150472301C18F00231D6A /* FunctionTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB150452301C18F00231D6A /* FunctionTemplate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,12 @@
 		BEB1503A2301184100231D6A /* referenceParameter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = referenceParameter.hpp; sourceTree = "<group>"; };
 		BEB1503C2301205800231D6A /* defaultArgument.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = defaultArgument.cpp; sourceTree = "<group>"; };
 		BEB1503D2301205800231D6A /* defaultArgument.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = defaultArgument.hpp; sourceTree = "<group>"; };
+		BEB1503F2301BB7400231D6A /* unaryOperation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unaryOperation.cpp; sourceTree = "<group>"; };
+		BEB150402301BB7400231D6A /* unaryOperation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unaryOperation.hpp; sourceTree = "<group>"; };
+		BEB150422301BCCC00231D6A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
+		BEB150432301BCCC00231D6A /* functionOverloading.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionOverloading.hpp; sourceTree = "<group>"; };
+		BEB150452301C18F00231D6A /* FunctionTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTemplate.cpp; sourceTree = "<group>"; };
+		BEB150462301C18F00231D6A /* FunctionTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctionTemplate.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +87,12 @@
 				BEB1503A2301184100231D6A /* referenceParameter.hpp */,
 				BEB1503C2301205800231D6A /* defaultArgument.cpp */,
 				BEB1503D2301205800231D6A /* defaultArgument.hpp */,
+				BEB1503F2301BB7400231D6A /* unaryOperation.cpp */,
+				BEB150402301BB7400231D6A /* unaryOperation.hpp */,
+				BEB150422301BCCC00231D6A /* functionOverloading.cpp */,
+				BEB150432301BCCC00231D6A /* functionOverloading.hpp */,
+				BEB150452301C18F00231D6A /* FunctionTemplate.cpp */,
+				BEB150462301C18F00231D6A /* FunctionTemplate.hpp */,
 			);
 			path = "C-review";
 			sourceTree = "<group>";
@@ -139,10 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB14FE422FE29AF00231D6A /* main.cpp in Sources */,
+				BEB150412301BB7400231D6A /* unaryOperation.cpp in Sources */,
 				BEB1503E2301205800231D6A /* defaultArgument.cpp in Sources */,
 				BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */,
 				BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */,
 				BEB1503B2301184100231D6A /* referenceParameter.cpp in Sources */,
+				BEB150442301BCCC00231D6A /* functionOverloading.cpp in Sources */,
+				BEB150472301C18F00231D6A /* FunctionTemplate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

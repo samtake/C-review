@@ -11,6 +11,9 @@
 #include "inlineFunction.hpp"
 #include "referenceParameter.hpp"
 #include "defaultArgument.hpp"
+#include "unaryOperation.hpp"
+#include "functionOverloading.hpp"
+#include "FunctionTemplate.hpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
@@ -19,8 +22,16 @@ int main(int argc, const char * argv[]) {
     
 //    testInlineFunction();
     
-    testSquareByReference();
+//    testSquareByReference();
     
+//    testDefaultArgument();
+    
+//    testUnaryOperation();
+    
+    
+//    functionOverloading();
+    
+    testFunctionTemplate();
     
     return 0;
 }

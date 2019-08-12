@@ -33,7 +33,7 @@ void testSquareByReference(){
     
     
     int z = 3;
-    int &z_alias;// = z;
+    int &z_alias = z;
     cout << "z= " << z << endl << " z_alias = "  <<  z_alias << endl;
     z = 7;
     cout << "z= " << z << endl << " z_alias = "  <<  z_alias << endl;
