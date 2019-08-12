@@ -30,4 +30,13 @@ void testSquareByReference(){
     cout << "y=" << y << " before squareByReference"  << endl;
     squareByReference(y);
     cout << "y=" << y << " after squareByReference"  << endl;
+    
+    
+    int z = 3;
+    int &z_alias;// = z;
+    cout << "z= " << z << endl << " z_alias = "  <<  z_alias << endl;
+    z = 7;
+    cout << "z= " << z << endl << " z_alias = "  <<  z_alias << endl;
+    
+    
 }
