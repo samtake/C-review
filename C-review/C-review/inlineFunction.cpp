@@ -9,7 +9,8 @@
 #include "inlineFunction.hpp"
 #include <iostream>
 
-using std::cout;
+//using std::cout;
+using namespace std;
 using std::cin;
 using std::endl;
 
