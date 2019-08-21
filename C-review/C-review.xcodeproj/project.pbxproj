@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE272906230C513700DCB555 /* FuncClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE272904230C513700DCB555 /* FuncClass.cpp */; };
 		BEB14FE422FE29AF00231D6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FE322FE29AF00231D6A /* main.cpp */; };
 		BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */; };
 		BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB15036230114D700231D6A /* inlineFunction.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE272904230C513700DCB555 /* FuncClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncClass.cpp; sourceTree = "<group>"; };
+		BE272905230C513700DCB555 /* FuncClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncClass.hpp; sourceTree = "<group>"; };
 		BEB14FE022FE29AF00231D6A /* C-review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-review"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB14FE322FE29AF00231D6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddFunction.cpp; sourceTree = "<group>"; };
@@ -59,6 +62,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE272902230C50E600DCB555 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */,
+				BEB14FEB22FE2B7700231D6A /* AddFunction.hpp */,
+				BEB15036230114D700231D6A /* inlineFunction.cpp */,
+				BEB15037230114D700231D6A /* inlineFunction.hpp */,
+				BEB150392301184100231D6A /* referenceParameter.cpp */,
+				BEB1503A2301184100231D6A /* referenceParameter.hpp */,
+				BEB1503C2301205800231D6A /* defaultArgument.cpp */,
+				BEB1503D2301205800231D6A /* defaultArgument.hpp */,
+				BEB1503F2301BB7400231D6A /* unaryOperation.cpp */,
+				BEB150402301BB7400231D6A /* unaryOperation.hpp */,
+				BEB150422301BCCC00231D6A /* functionOverloading.cpp */,
+				BEB150432301BCCC00231D6A /* functionOverloading.hpp */,
+				BEB150452301C18F00231D6A /* FunctionTemplate.cpp */,
+				BEB150462301C18F00231D6A /* FunctionTemplate.hpp */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		BE272903230C50FF00DCB555 /* classAndObject */ = {
+			isa = PBXGroup;
+			children = (
+				BE272904230C513700DCB555 /* FuncClass.cpp */,
+				BE272905230C513700DCB555 /* FuncClass.hpp */,
+			);
+			path = classAndObject;
+			sourceTree = "<group>";
+		};
 		BEB14FD722FE29AF00231D6A = {
 			isa = PBXGroup;
 			children = (
@@ -78,21 +111,9 @@
 		BEB14FE222FE29AF00231D6A /* C-review */ = {
 			isa = PBXGroup;
 			children = (
+				BE272903230C50FF00DCB555 /* classAndObject */,
+				BE272902230C50E600DCB555 /* base */,
 				BEB14FE322FE29AF00231D6A /* main.cpp */,
-				BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */,
-				BEB14FEB22FE2B7700231D6A /* AddFunction.hpp */,
-				BEB15036230114D700231D6A /* inlineFunction.cpp */,
-				BEB15037230114D700231D6A /* inlineFunction.hpp */,
-				BEB150392301184100231D6A /* referenceParameter.cpp */,
-				BEB1503A2301184100231D6A /* referenceParameter.hpp */,
-				BEB1503C2301205800231D6A /* defaultArgument.cpp */,
-				BEB1503D2301205800231D6A /* defaultArgument.hpp */,
-				BEB1503F2301BB7400231D6A /* unaryOperation.cpp */,
-				BEB150402301BB7400231D6A /* unaryOperation.hpp */,
-				BEB150422301BCCC00231D6A /* functionOverloading.cpp */,
-				BEB150432301BCCC00231D6A /* functionOverloading.hpp */,
-				BEB150452301C18F00231D6A /* FunctionTemplate.cpp */,
-				BEB150462301C18F00231D6A /* FunctionTemplate.hpp */,
 			);
 			path = "C-review";
 			sourceTree = "<group>";
@@ -161,6 +182,7 @@
 				BEB1503B2301184100231D6A /* referenceParameter.cpp in Sources */,
 				BEB150442301BCCC00231D6A /* functionOverloading.cpp in Sources */,
 				BEB150472301C18F00231D6A /* FunctionTemplate.cpp in Sources */,
+				BE272906230C513700DCB555 /* FuncClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
