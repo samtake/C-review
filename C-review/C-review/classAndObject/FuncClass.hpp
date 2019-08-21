@@ -12,4 +12,5 @@
 #include <stdio.h>
 void funcTestGradeBook();
 void funcTestGradeBookHaveLocalVariable();
+void funcTestGradeBookConstructor();
 #endif /* FuncClass_hpp */

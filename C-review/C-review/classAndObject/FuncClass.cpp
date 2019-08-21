@@ -72,3 +72,42 @@ void funcTestGradeBookHaveLocalVariable(){
     
     myGradeBookHaveLocalVariable.displayMessage();
 }
+
+
+class GradeBookConstructor{
+    
+public:
+    
+    GradeBookConstructor(string name){
+        setCourseName(name);
+    }
+    
+    void setCourseName(string name){
+        courseName = name;
+    }
+    
+    string getCourseName(){
+        return courseName;
+    }
+    
+    void displayMessage(){
+        cout<<"course  name: "<< getCourseName() <<endl;
+    }
+    
+    //定义一个有参成员函数
+    void displayMessageWithParms(string courseName){
+        cout<<"grade book"<< courseName <<endl;
+    }
+    
+private:
+    string courseName;
+};
+
+
+void funcTestGradeBookConstructor(){
+    GradeBookConstructor myGradeBookConstructor1("Constructor");
+    GradeBookConstructor myGradeBookConstructor2("构造函数");
+    
+    myGradeBookConstructor1.displayMessage();
+    myGradeBookConstructor2.displayMessage();
+}

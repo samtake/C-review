@@ -39,7 +39,9 @@ int main(int argc, const char * argv[]) {
     
 //    funcTestGradeBook();
     
-    funcTestGradeBookHaveLocalVariable();
+//    funcTestGradeBookHaveLocalVariable();
+    
+    funcTestGradeBookConstructor();
     
     return 0;
 }
