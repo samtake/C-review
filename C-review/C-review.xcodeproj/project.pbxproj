@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE272906230C513700DCB555 /* FuncClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE272904230C513700DCB555 /* FuncClass.cpp */; };
+		BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */; };
 		BEB14FE422FE29AF00231D6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FE322FE29AF00231D6A /* main.cpp */; };
 		BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */; };
 		BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB15036230114D700231D6A /* inlineFunction.cpp */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		BE272904230C513700DCB555 /* FuncClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncClass.cpp; sourceTree = "<group>"; };
 		BE272905230C513700DCB555 /* FuncClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncClass.hpp; sourceTree = "<group>"; };
+		BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VertifyWithSetFunc.cpp; sourceTree = "<group>"; };
+		BE5316E42312A19400DEABC0 /* VertifyWithSetFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VertifyWithSetFunc.hpp; sourceTree = "<group>"; };
 		BEB14FE022FE29AF00231D6A /* C-review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-review"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB14FE322FE29AF00231D6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddFunction.cpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 			children = (
 				BE272904230C513700DCB555 /* FuncClass.cpp */,
 				BE272905230C513700DCB555 /* FuncClass.hpp */,
+				BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */,
+				BE5316E42312A19400DEABC0 /* VertifyWithSetFunc.hpp */,
 			);
 			path = classAndObject;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				BEB150412301BB7400231D6A /* unaryOperation.cpp in Sources */,
 				BEB1503E2301205800231D6A /* defaultArgument.cpp in Sources */,
 				BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */,
+				BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */,
 				BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */,
 				BEB1503B2301184100231D6A /* referenceParameter.cpp in Sources */,
 				BEB150442301BCCC00231D6A /* functionOverloading.cpp in Sources */,

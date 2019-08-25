@@ -14,6 +14,7 @@
 #include "unaryOperation.hpp"
 #include "functionOverloading.hpp"
 #include "FunctionTemplate.hpp"
+#include "VertifyWithSetFunc.hpp"
 
 //classAndObject
 #include "FuncClass.hpp"
@@ -41,7 +42,13 @@ int main(int argc, const char * argv[]) {
     
 //    funcTestGradeBookHaveLocalVariable();
     
-    funcTestGradeBookConstructor();
+//    funcTestGradeBookConstructor();
     
+    //VertifyWithSetFunc
+    VertifyWithSetFunc vertify1("test1");
+    VertifyWithSetFunc vertify2("test2test2test2test2test2test2test2test2test2test2");
+    
+    cout<<"vertify1: "<< vertify1.getCourseName() <<endl;
+    cout<<"vertify2: "<< vertify2.getCourseName() <<endl;
     return 0;
 }
