@@ -23,6 +23,8 @@
 //base time
 #include "BaseTime.hpp"
 
+#include "BaseCount.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    std::cout << "Hello, World!\n";
@@ -56,8 +58,11 @@ int main(int argc, const char * argv[]) {
 //    cout<<"vertify2: "<< vertify2.getCourseName() <<endl;
     
     
-    //base time
-    testBaseTime();
+//    //base time
+//    testBaseTime();
     
+    
+    //Base Count
+    testBaseCount();
     return 0;
 }
