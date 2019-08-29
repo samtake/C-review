@@ -16,8 +16,12 @@
 #include "FunctionTemplate.hpp"
 #include "VertifyWithSetFunc.hpp"
 
+
 //classAndObject
 #include "FuncClass.hpp"
+
+//base time
+#include "BaseTime.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -44,11 +48,16 @@ int main(int argc, const char * argv[]) {
     
 //    funcTestGradeBookConstructor();
     
-    //VertifyWithSetFunc
-    VertifyWithSetFunc vertify1("test1");
-    VertifyWithSetFunc vertify2("test2test2test2test2test2test2test2test2test2test2");
+//    //VertifyWithSetFunc
+//    VertifyWithSetFunc vertify1("test1");
+//    VertifyWithSetFunc vertify2("test2test2test2test2test2test2test2test2test2test2");
+//
+//    cout<<"vertify1: "<< vertify1.getCourseName() <<endl;
+//    cout<<"vertify2: "<< vertify2.getCourseName() <<endl;
     
-    cout<<"vertify1: "<< vertify1.getCourseName() <<endl;
-    cout<<"vertify2: "<< vertify2.getCourseName() <<endl;
+    
+    //base time
+    testBaseTime();
+    
     return 0;
 }

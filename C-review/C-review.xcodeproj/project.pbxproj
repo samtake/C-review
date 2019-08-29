@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE272906230C513700DCB555 /* FuncClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE272904230C513700DCB555 /* FuncClass.cpp */; };
+		BE2FC23F2318288C00BD7FCB /* BaseTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */; };
 		BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */; };
 		BEB14FE422FE29AF00231D6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FE322FE29AF00231D6A /* main.cpp */; };
 		BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		BE272904230C513700DCB555 /* FuncClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncClass.cpp; sourceTree = "<group>"; };
 		BE272905230C513700DCB555 /* FuncClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncClass.hpp; sourceTree = "<group>"; };
+		BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTime.cpp; sourceTree = "<group>"; };
+		BE2FC23E2318288C00BD7FCB /* BaseTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseTime.hpp; sourceTree = "<group>"; };
 		BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VertifyWithSetFunc.cpp; sourceTree = "<group>"; };
 		BE5316E42312A19400DEABC0 /* VertifyWithSetFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VertifyWithSetFunc.hpp; sourceTree = "<group>"; };
 		BEB14FE022FE29AF00231D6A /* C-review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-review"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,15 @@
 			path = classAndObject;
 			sourceTree = "<group>";
 		};
+		BE2FC23C2318286300BD7FCB /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */,
+				BE2FC23E2318288C00BD7FCB /* BaseTime.hpp */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
 		BEB14FD722FE29AF00231D6A = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +128,7 @@
 		BEB14FE222FE29AF00231D6A /* C-review */ = {
 			isa = PBXGroup;
 			children = (
+				BE2FC23C2318286300BD7FCB /* Time */,
 				BE272903230C50FF00DCB555 /* classAndObject */,
 				BE272902230C50E600DCB555 /* base */,
 				BEB14FE322FE29AF00231D6A /* main.cpp */,
@@ -182,6 +195,7 @@
 				BEB14FE422FE29AF00231D6A /* main.cpp in Sources */,
 				BEB150412301BB7400231D6A /* unaryOperation.cpp in Sources */,
 				BEB1503E2301205800231D6A /* defaultArgument.cpp in Sources */,
+				BE2FC23F2318288C00BD7FCB /* BaseTime.cpp in Sources */,
 				BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */,
 				BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */,
 				BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */,
