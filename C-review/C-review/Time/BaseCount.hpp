@@ -10,7 +10,6 @@
 #define BaseCount_hpp
 
 #include <stdio.h>
-#include <stdio.h>
 #include <iostream>
 using namespace std;
 

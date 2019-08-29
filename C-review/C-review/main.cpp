@@ -25,6 +25,8 @@
 
 #include "BaseCount.hpp"
 
+#include "BaseSalePerson.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    std::cout << "Hello, World!\n";
@@ -62,7 +64,12 @@ int main(int argc, const char * argv[]) {
 //    testBaseTime();
     
     
-    //Base Count
-    testBaseCount();
+//    //Base Count
+//    testBaseCount();
+    
+    
+    testBaseSalePerson();
+    
+    
     return 0;
 }

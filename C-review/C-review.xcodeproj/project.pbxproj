@@ -10,6 +10,7 @@
 		BE272906230C513700DCB555 /* FuncClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE272904230C513700DCB555 /* FuncClass.cpp */; };
 		BE2FC23F2318288C00BD7FCB /* BaseTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */; };
 		BE2FC24223182DF900BD7FCB /* BaseCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC24023182DF900BD7FCB /* BaseCount.cpp */; };
+		BE2FC2452318340200BD7FCB /* BaseSalePerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC2432318340200BD7FCB /* BaseSalePerson.cpp */; };
 		BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */; };
 		BEB14FE422FE29AF00231D6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FE322FE29AF00231D6A /* main.cpp */; };
 		BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB14FEA22FE2B7700231D6A /* AddFunction.cpp */; };
@@ -40,6 +41,8 @@
 		BE2FC23E2318288C00BD7FCB /* BaseTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseTime.hpp; sourceTree = "<group>"; };
 		BE2FC24023182DF900BD7FCB /* BaseCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseCount.cpp; sourceTree = "<group>"; };
 		BE2FC24123182DF900BD7FCB /* BaseCount.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseCount.hpp; sourceTree = "<group>"; };
+		BE2FC2432318340200BD7FCB /* BaseSalePerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseSalePerson.cpp; sourceTree = "<group>"; };
+		BE2FC2442318340200BD7FCB /* BaseSalePerson.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseSalePerson.hpp; sourceTree = "<group>"; };
 		BE5316E32312A19400DEABC0 /* VertifyWithSetFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VertifyWithSetFunc.cpp; sourceTree = "<group>"; };
 		BE5316E42312A19400DEABC0 /* VertifyWithSetFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VertifyWithSetFunc.hpp; sourceTree = "<group>"; };
 		BEB14FE022FE29AF00231D6A /* C-review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-review"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +113,8 @@
 				BE2FC23E2318288C00BD7FCB /* BaseTime.hpp */,
 				BE2FC24023182DF900BD7FCB /* BaseCount.cpp */,
 				BE2FC24123182DF900BD7FCB /* BaseCount.hpp */,
+				BE2FC2432318340200BD7FCB /* BaseSalePerson.cpp */,
+				BE2FC2442318340200BD7FCB /* BaseSalePerson.hpp */,
 			);
 			path = Time;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				BEB150472301C18F00231D6A /* FunctionTemplate.cpp in Sources */,
 				BE2FC24223182DF900BD7FCB /* BaseCount.cpp in Sources */,
 				BE272906230C513700DCB555 /* FuncClass.cpp in Sources */,
+				BE2FC2452318340200BD7FCB /* BaseSalePerson.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
