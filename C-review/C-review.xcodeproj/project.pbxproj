@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE272906230C513700DCB555 /* FuncClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE272904230C513700DCB555 /* FuncClass.cpp */; };
+		BE27F68923197F33005979CB /* DefaultArgumentConstructorTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE27F68723197F33005979CB /* DefaultArgumentConstructorTime.cpp */; };
 		BE2FC23F2318288C00BD7FCB /* BaseTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */; };
 		BE2FC24223182DF900BD7FCB /* BaseCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC24023182DF900BD7FCB /* BaseCount.cpp */; };
 		BE2FC2452318340200BD7FCB /* BaseSalePerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC2432318340200BD7FCB /* BaseSalePerson.cpp */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		BE272904230C513700DCB555 /* FuncClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncClass.cpp; sourceTree = "<group>"; };
 		BE272905230C513700DCB555 /* FuncClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncClass.hpp; sourceTree = "<group>"; };
+		BE27F68723197F33005979CB /* DefaultArgumentConstructorTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DefaultArgumentConstructorTime.cpp; sourceTree = "<group>"; };
+		BE27F68823197F33005979CB /* DefaultArgumentConstructorTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DefaultArgumentConstructorTime.hpp; sourceTree = "<group>"; };
 		BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTime.cpp; sourceTree = "<group>"; };
 		BE2FC23E2318288C00BD7FCB /* BaseTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseTime.hpp; sourceTree = "<group>"; };
 		BE2FC24023182DF900BD7FCB /* BaseCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseCount.cpp; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 			children = (
 				BE2FC23D2318288C00BD7FCB /* BaseTime.cpp */,
 				BE2FC23E2318288C00BD7FCB /* BaseTime.hpp */,
+				BE27F68723197F33005979CB /* DefaultArgumentConstructorTime.cpp */,
+				BE27F68823197F33005979CB /* DefaultArgumentConstructorTime.hpp */,
 				BE2FC24023182DF900BD7FCB /* BaseCount.cpp */,
 				BE2FC24123182DF900BD7FCB /* BaseCount.hpp */,
 				BE2FC2432318340200BD7FCB /* BaseSalePerson.cpp */,
@@ -208,6 +213,7 @@
 				BE2FC23F2318288C00BD7FCB /* BaseTime.cpp in Sources */,
 				BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */,
 				BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */,
+				BE27F68923197F33005979CB /* DefaultArgumentConstructorTime.cpp in Sources */,
 				BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */,
 				BEB1503B2301184100231D6A /* referenceParameter.cpp in Sources */,
 				BEB150442301BCCC00231D6A /* functionOverloading.cpp in Sources */,

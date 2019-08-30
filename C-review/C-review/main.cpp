@@ -27,6 +27,8 @@
 
 #include "BaseSalePerson.hpp"
 
+#include "DefaultArgumentConstructorTime.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    std::cout << "Hello, World!\n";
@@ -68,8 +70,8 @@ int main(int argc, const char * argv[]) {
 //    testBaseCount();
     
     
-    testBaseSalePerson();
-    
+//    testBaseSalePerson();
+    testDefaultArgumentConstructorTime();
     
     return 0;
 }
