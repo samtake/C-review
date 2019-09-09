@@ -29,6 +29,8 @@
 
 #include "DefaultArgumentConstructorTime.hpp"
 
+#include "CreateAndDestructor.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    std::cout << "Hello, World!\n";
@@ -71,7 +73,10 @@ int main(int argc, const char * argv[]) {
     
     
 //    testBaseSalePerson();
-    testDefaultArgumentConstructorTime();
+//    testDefaultArgumentConstructorTime();
+    
+    
+    testCreateAndDestructor();
     
     return 0;
 }

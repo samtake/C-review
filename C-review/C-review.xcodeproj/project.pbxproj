@@ -21,6 +21,7 @@
 		BEB150412301BB7400231D6A /* unaryOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB1503F2301BB7400231D6A /* unaryOperation.cpp */; };
 		BEB150442301BCCC00231D6A /* functionOverloading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB150422301BCCC00231D6A /* functionOverloading.cpp */; };
 		BEB150472301C18F00231D6A /* FunctionTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB150452301C18F00231D6A /* FunctionTemplate.cpp */; };
+		BEE4E35A2326B317006A4BF4 /* CreateAndDestructor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE4E3582326B317006A4BF4 /* CreateAndDestructor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,8 @@
 		BEB150432301BCCC00231D6A /* functionOverloading.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionOverloading.hpp; sourceTree = "<group>"; };
 		BEB150452301C18F00231D6A /* FunctionTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTemplate.cpp; sourceTree = "<group>"; };
 		BEB150462301C18F00231D6A /* FunctionTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctionTemplate.hpp; sourceTree = "<group>"; };
+		BEE4E3582326B317006A4BF4 /* CreateAndDestructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CreateAndDestructor.cpp; sourceTree = "<group>"; };
+		BEE4E3592326B317006A4BF4 /* CreateAndDestructor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CreateAndDestructor.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,12 +146,22 @@
 		BEB14FE222FE29AF00231D6A /* C-review */ = {
 			isa = PBXGroup;
 			children = (
+				BEE4E3572326B289006A4BF4 /* CreateAndDestructor */,
 				BE2FC23C2318286300BD7FCB /* Time */,
 				BE272903230C50FF00DCB555 /* classAndObject */,
 				BE272902230C50E600DCB555 /* base */,
 				BEB14FE322FE29AF00231D6A /* main.cpp */,
 			);
 			path = "C-review";
+			sourceTree = "<group>";
+		};
+		BEE4E3572326B289006A4BF4 /* CreateAndDestructor */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E3582326B317006A4BF4 /* CreateAndDestructor.cpp */,
+				BEE4E3592326B317006A4BF4 /* CreateAndDestructor.hpp */,
+			);
+			path = CreateAndDestructor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +226,7 @@
 				BE2FC23F2318288C00BD7FCB /* BaseTime.cpp in Sources */,
 				BEB15038230114D700231D6A /* inlineFunction.cpp in Sources */,
 				BE5316E52312A19400DEABC0 /* VertifyWithSetFunc.cpp in Sources */,
+				BEE4E35A2326B317006A4BF4 /* CreateAndDestructor.cpp in Sources */,
 				BE27F68923197F33005979CB /* DefaultArgumentConstructorTime.cpp in Sources */,
 				BEB14FEC22FE2B7700231D6A /* AddFunction.cpp in Sources */,
 				BEB1503B2301184100231D6A /* referenceParameter.cpp in Sources */,
